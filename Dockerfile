@@ -18,5 +18,10 @@ RUN yarn install
 # Prebuild step
 RUN yarn build:prebuild
 
-# Default command to start the development server
-CMD ["yarn", "dev"]
+# Expose the port Render will bind to
+EXPOSE 4000
+
+# Default command to run the app
+CMD ["yarn", "dev", "-H", "0.0.0.0", "-p", "4000"]
+
+
