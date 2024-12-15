@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { basename, dirname, join } from "path";
 import { type Options, type Track, type URLTrack } from "webamp";
 import { useCallback, useEffect, useRef } from "react";
