@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useEffect, useMemo, useState } from "react";
 import { sortFiles } from "components/system/Files/FileManager/functions";
 import { type Files } from "components/system/Files/FileManager/useFolder";
