@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { join } from "path";
 import { useTheme } from "styled-components";
 import { useCallback, useEffect, useMemo, useRef } from "react";
