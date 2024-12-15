@@ -96,4 +96,6 @@ export const BASE_VIDEO_SELECTOR = ":scope > video";
 
 export const PRELOAD_ID = "preloadWallpaper";
 
+export const  STABLE_DIFFUSION_DELAY_IN_MIN = 10;
+
 export const SLIDESHOW_TIMEOUT_IN_MILLISECONDS = 31622400000;
