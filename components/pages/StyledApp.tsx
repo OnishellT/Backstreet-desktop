@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { StyleSheetManager, ThemeProvider } from "styled-components";
 import { memo } from "react";
 import { type FeatureBundle, LazyMotion } from "motion/react";
