@@ -19,7 +19,7 @@
     "build:prebuild": "node scripts/robots.js && node scripts/rssBuilder.js && node scripts/searchIndex.js && node scripts/preloadIcons.js && node scripts/cacheShortcuts.js && yarn build:fs",
     "docker:build": "docker build -t BackstreetDesktop .",
     "docker:run": "docker run -dp 3000:3000 --rm --name BackstreetDesktop BackstreetDesktop",
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0 -p $PORT",
     "dev:ssl": "next dev --experimental-https",
     "e2e": "playwright test",
     "e2e:ui": "playwright test --ui",
