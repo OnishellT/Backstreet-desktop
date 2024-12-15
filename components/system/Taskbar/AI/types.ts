@@ -1,3 +1,4 @@
+// @ts-nocheck
 /// <reference types="dom-chromium-ai" />
 
 import { type MarkedOptions } from "components/apps/Marked/useMarked";
