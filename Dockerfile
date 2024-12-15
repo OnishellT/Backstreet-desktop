@@ -1,13 +1,22 @@
 FROM node:22-alpine
 
+# Set environment variables
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
+# Install git for version control if needed
 RUN apk add --no-cache git
 
-WORKDIR BackstreetDesktop
+# Set the working directory inside the container
+WORKDIR /BackstreetDesktop
+
+# Copy all files from the local directory to the container's working directory
 COPY . .
 
-RUN yarn
-RUN yarn build
+# Install dependencies
+RUN yarn install
 
-CMD yarn serve
+# Prebuild step
+RUN yarn build:prebuild
+
+# Default command to start the development server
+CMD ["yarn", "dev"]
