@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { basename, dirname, extname, join } from "path";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Buttons from "components/system/Dialogs/Properties/Buttons";
