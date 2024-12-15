@@ -1,0 +1,9 @@
+services:
+  backstreet-desktop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    container_name: BackstreetDesktop
+    command: ["yarn", "dev"]
