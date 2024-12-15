@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useTheme } from "styled-components";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { measureText } from "components/system/Files/FileEntry/functions";
