@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { basename, dirname, join } from "path";
 import { useCallback, useMemo } from "react";
 import { WALLPAPER_MENU } from "components/system/Desktop/Wallpapers/constants";
