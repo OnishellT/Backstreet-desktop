@@ -22,5 +22,5 @@ RUN yarn build:prebuild
 EXPOSE 10000
 
 # Run the app in development mode, binding to 0.0.0.0 and using the PORT variable
-CMD ["yarn", "dev", "-H", "0.0.0.0", "-p", "$PORT"]
+CMD ["yarn", "dev", "-H", "0.0.0.0", "-p", "1000"]
 
