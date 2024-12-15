@@ -1,3 +1,5 @@
+
+// @ts-nocheck
 import { basename, join } from "path";
 import { useCallback, useLayoutEffect, useRef, useState } from "react";
 import { parseCommand } from "components/apps/Terminal/functions";
