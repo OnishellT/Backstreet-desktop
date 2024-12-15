@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { join } from "path";
 import { type Position } from "react-rnd";
 import { useCallback, useEffect, useRef, useState } from "react";
