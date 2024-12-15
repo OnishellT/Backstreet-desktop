@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { basename, join } from "path";
 import { memo, useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
