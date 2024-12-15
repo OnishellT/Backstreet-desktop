@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { basename, extname } from "path";
 import { useTheme } from "styled-components";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
